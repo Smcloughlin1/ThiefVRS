@@ -69,6 +69,8 @@ def callReset():
     resetTreasures()
     Thief()
 
+def placeThief():
+    thief()
 
 #Gives the buttons their various properties
 placeThiefButton = Button(controlPanel, text = "Place Thief", command = placeThief)
